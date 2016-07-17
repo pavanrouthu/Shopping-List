@@ -1,0 +1,24 @@
+{
+  "name": "myAssignment",
+  "version": "1.0.0",
+  "description": "Assignment to show data in Tech collections",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "handlebars",
+    "mongo"
+  ],
+  "author": "Pavan",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "latest",
+    "mongoose": "latest",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "express-handlebars": "latest"
+  }
+}

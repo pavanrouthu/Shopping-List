@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600" rel="stylesheet" />
+	<link rel="icon" href="/images/favicon.jpg" type="image/x-icon"/>
+	<link href="/css/loginForm.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+	<div class="col-lg-12">
+		<h1>Below is the list of Technologies supported by us:</h1>
+		<br>
+			<table class="table">
+				<thead class="thead-inverse">
+				{{#each techdata}}
+				</thead>
+				<tr>
+					<th>Technology</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>{{this.name}}</td>
+					<td>{{this.description}}</td>
+				</tr>
+				{{/each}}
+			</table>
+
+	</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
